@@ -1,12 +1,10 @@
 * {
   margin: 0;
   padding: 0;
-  height: 100vh;
-  max-height: 150vh;
   transition: all 0.2s ease-in-out;
   font-family: "Open Sans", sans-serif;
   -webkit-tap-highlight-color: transparent;
-  background: linear-gradient(to top, #abbaab 0%, #ffffff 100%);
+  background-color: rgb(202, 255, 255);
 }
 
 .heading {
@@ -30,8 +28,8 @@
 video {
   width: 100%;
   margin: 16px;
-  height: 300px;
-  max-width: 350px;
+  height: 350px;
+  max-width: 450px;
   object-fit: cover;
   border-radius: 4px;
   transform: scaleX(-1);

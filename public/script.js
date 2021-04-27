@@ -12,7 +12,7 @@ document.body.appendChild(loading);
 const socket = io("/");
 const peer = new Peer(undefined, {
   secure: true,
-  host: "webchatpeer.herokuapp.com",
+  host: "spanion-video-chat-peer.herokuapp.com",
   // host: "/",
   // port: "3001",
 });
